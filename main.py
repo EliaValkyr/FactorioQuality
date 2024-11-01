@@ -9,6 +9,7 @@ RARE_INDEX = 2
 EPIC_INDEX = 3
 LEGENDARY_INDEX = 4
 
+
 def computeQualityCosts(quality_chance: float):
     def createMatrix():
         normal_quality = np.array([1-quality_chance, quality_chance * 0.9, quality_chance * 0.09, quality_chance * 0.009, quality_chance * 0.001])
